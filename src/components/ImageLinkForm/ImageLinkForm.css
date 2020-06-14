@@ -1,0 +1,41 @@
+.imageLinkFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.form {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 30px 15px;
+    width: 60vw;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,5,239,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.input {
+    padding: 7px;
+    width: 60%;
+}
+
+.button {
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #8A2BE2;
+    border-width: 1px;
+    padding: 7px;
+    width: 20%;
+    transition: ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

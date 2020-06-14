@@ -1,0 +1,19 @@
+.navigationContainer {
+    /* position */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigationText {
+    /* text */
+    font-size: 2rem;
+    text-decoration: underline;
+    /* box */
+    padding: 20px;
+    margin: 0;
+}
+
+.navigationText:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
