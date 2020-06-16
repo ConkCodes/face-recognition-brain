@@ -1,8 +1,22 @@
+/* centering the content austomatically makes the wrapper fit perfectly around image */
 .faceRecognitionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
+}
+
+.wrapper {
+    position: relative;
 }
 
 .facePic {
     width: 500px;
     height: auto;
+}
+
+.boundingBox {
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    cursor: pointer;
 }
